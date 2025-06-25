@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
         <div className="space-y-6">
           <div className="flex items-center justify-center space-x-2 text-gray-600">
             <MapPin size={16} />
-            <span>Gurugram, IN</span>
+            <span>Gurugaon, India</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
@@ -54,13 +54,12 @@ const Hero: React.FC = () => {
           </h1>
           
           <h2 className="text-2xl md:text-3xl text-gray-700 font-light">
-            Senior Backend Developer
+            Senior Software Engineer
           </h2>
           
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Passionate about building exceptional digital experiences with modern technologies. 
-            I specialize in Java, Springboot Microservices, and cloud architecture, bringing ideas to life through clean, 
-            scalable code and thoughtful design.
+            Experienced software engineer with 5+ years in building scalable applications and leading development teams. 
+            Currently working as SDE 3 at BharatPe, specializing in backend systems, microservices, and fintech solutions.
           </p>
 
           {/* Action Buttons */}
@@ -71,9 +70,15 @@ const Hero: React.FC = () => {
             >
               Get to Know Me
             </button>
+            
             <button className="flex items-center space-x-2 text-gray-700 border-2 border-gray-300 px-8 py-4 rounded-full font-semibold hover:bg-gray-50 hover:border-gray-400 transition-all duration-200">
+            <a href="https://drive.google.com/file/d/1-UnRvm3ZxtuSR4Yv7l-4E6Mse1oKT5Wh/view?usp=sharing" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-700 transition-all duration-200">
               <Download size={20} />
               <span>Download Resume</span>
+              </a>
             </button>
           </div>
         </div>
@@ -84,7 +89,7 @@ const Hero: React.FC = () => {
             onClick={scrollToAbout}
             className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
           >
-            <ArrowDown size={24} />
+            <ArrowDown size={20} />
           </button>
         </div>
       </div>

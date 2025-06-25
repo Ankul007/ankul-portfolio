@@ -3,33 +3,33 @@ import React from 'react';
 const Skills: React.FC = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Backend & Languages",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Vue.js", level: 80 }
-      ]
-    },
-    {
-      title: "Backend",
-      skills: [
-        { name: "Node.js", level: 90 },
+        { name: "Java", level: 95 },
         { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 88 },
-        { name: "MongoDB", level: 82 },
-        { name: "GraphQL", level: 78 }
+        { name: "Node.js", level: 80 },
+        { name: "Go", level: 75 },
+        { name: "Scala", level: 70 }
       ]
     },
     {
-      title: "DevOps & Tools",
+      title: "Databases & Storage",
+      skills: [
+        { name: "MySQL", level: 90 },
+        { name: "PostgreSQL", level: 85 },
+        { name: "MongoDB", level: 80 },
+        { name: "Redis", level: 85 },
+        { name: "Elasticsearch", level: 75 }
+      ]
+    },
+    {
+      title: "Cloud & DevOps",
       skills: [
         { name: "AWS", level: 85 },
-        { name: "Docker", level: 82 },
-        { name: "Git", level: 95 },
-        { name: "CI/CD", level: 80 },
-        { name: "Kubernetes", level: 75 }
+        { name: "Docker", level: 80 },
+        { name: "Kubernetes", level: 75 },
+        { name: "Jenkins", level: 80 },
+        { name: "Terraform", level: 70 }
       ]
     }
   ];
@@ -46,7 +46,7 @@ const Skills: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Skills & Expertise</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A comprehensive toolkit built through years of hands-on experience and continuous learning
+            A comprehensive toolkit built through years of hands-on experience in fintech and e-commerce
           </p>
         </div>
 
@@ -89,8 +89,8 @@ const Skills: React.FC = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Redux", "Express.js", "Socket.io", "Jest", "Webpack", "Sass",
-              "Redis", "Elasticsearch", "Firebase", "Stripe", "Auth0", "Figma"
+              "Spring Boot", "Microservices", "Apache Kafka", "RabbitMQ", "GraphQL", "REST APIs",
+              "Git", "JIRA", "Agile", "Scrum", "System Design", "Payment Systems"
             ].map((tech, index) => (
               <span 
                 key={index}

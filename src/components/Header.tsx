@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">A</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">Alex Chen</span>
+            <span className="text-xl font-bold text-gray-900">Ankul Singh</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -62,14 +62,8 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
-              <Github size={20} />
-            </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/ankul-singh/" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               <Linkedin size={20} />
-            </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
-              <Mail size={20} />
             </a>
           </div>
 

@@ -33,8 +33,8 @@ const Contact: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you. 
-            Let's create something amazing together.
+            Interested in collaborating or discussing opportunities? I'd love to hear from you. 
+            Let's build something amazing together.
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Let's Connect</h3>
               <p className="text-gray-600 leading-relaxed mb-8">
                 I'm always open to discussing new opportunities, interesting projects, 
-                or just having a chat about technology and development. Feel free to reach out 
+                or just having a chat about technology and software engineering. Feel free to reach out 
                 through any of the channels below.
               </p>
             </div>
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">alex.chen@example.com</p>
+                  <p className="text-gray-600">ankulsinghrajput96@gmail.com</p>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9877322718</p>
                 </div>
               </div>
 
@@ -77,17 +77,17 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">San Francisco, CA</p>
+                  <p className="text-gray-600">Gurugaon, India</p>
                 </div>
               </div>
             </div>
 
             {/* Availability */}
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <h4 className="font-semibold text-gray-900 mb-3">Current Availability</h4>
+              <h4 className="font-semibold text-gray-900 mb-3">Current Status</h4>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-green-700 font-medium">Available for new projects</span>
+                <span className="text-green-700 font-medium">Open to new opportunities</span>
               </div>
               <p className="text-gray-600 text-sm mt-2">
                 I typically respond within 24 hours
@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
                     rows={5}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none"
-                    placeholder="Tell me about your project or just say hello..."
+                    placeholder="Tell me about your project or opportunity..."
                   ></textarea>
                 </div>
 

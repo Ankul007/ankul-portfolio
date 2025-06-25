@@ -18,11 +18,11 @@ const Footer: React.FC = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">A</span>
               </div>
-              <span className="text-xl font-bold">Alex Chen</span>
+              <span className="text-xl font-bold">Ankul Singh</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Full Stack Developer passionate about creating exceptional digital experiences 
-              that make a difference in people's lives.
+              Senior Software Engineer passionate about building scalable systems 
+              and leading development teams in the fintech space.
             </p>
           </div>
 
@@ -62,34 +62,16 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="space-y-2 mb-6">
-              <p className="text-gray-400">alex.chen@example.com</p>
-              <p className="text-gray-400">San Francisco, CA</p>
+              <p className="text-gray-400">ankulsinghrajput96@gmail.com</p>
+              <p className="text-gray-400">Gurugaon, India</p>
             </div>
             
             <div className="flex space-x-4">
               <a 
-                href="#" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
-              >
-                <Github size={20} />
-              </a>
-              <a 
-                href="#" 
+                href="https://www.linkedin.com/in/ankul-singh/" 
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
               >
                 <Linkedin size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
-              >
-                <Twitter size={20} />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
-              >
-                <Mail size={20} />
               </a>
             </div>
           </div>
@@ -99,7 +81,7 @@ const Footer: React.FC = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 text-gray-400 mb-4 md:mb-0">
-            <span>© {currentYear} Alex Chen. Made with</span>
+            <span>© {currentYear} Ankul Singh. Made with</span>
             <Heart size={16} className="text-red-500" />
             <span>and lots of coffee.</span>
           </div>

@@ -4,55 +4,55 @@ import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and advanced analytics dashboard.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+      title: "Payment Processing System",
+      description: "Scalable payment processing system handling millions of transactions daily with real-time fraud detection and multi-gateway support.",
+      image: "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=600",
+      technologies: ["Java", "Spring Boot", "Redis", "MySQL"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, team chat, and advanced reporting features.",
-      image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
+      title: "Microservices Architecture",
+      description: "Designed and implemented microservices architecture for e-commerce platform serving 50M+ users with high availability.",
+      image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=600",
+      technologies: ["Java", "Spring Cloud", "Docker", "Kubernetes", "MongoDB"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
+    },
+    {
+      title: "Real-time Trading System",
+      description: "High-frequency trading data processing system with sub-millisecond latency for financial markets.",
+      image: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&w=600",
+      technologies: ["Java", "Apache Kafka", "Oracle", "Python"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "Weather Analytics Dashboard",
-      description: "Real-time weather monitoring system with predictive analytics and customizable alerts for multiple locations.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "Python", "Django", "Chart.js", "API Integration"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Unified dashboard for managing multiple social media accounts with scheduling, analytics, and engagement tracking.",
+      title: "Search & Recommendation Engine",
+      description: "Advanced search and recommendation system for e-commerce platform with ML-based personalization.",
       image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Redis", "OAuth"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: true
-    },
-    {
-      title: "Fitness Tracking App",
-      description: "Mobile-first fitness application with workout planning, progress tracking, and social features for motivation.",
-      image: "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React Native", "Node.js", "MongoDB", "Push Notifications"],
+      technologies: ["Elasticsearch", "Python", "Machine Learning", "Redis"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "Learning Management System",
-      description: "Comprehensive LMS with course creation, progress tracking, quizzes, and video streaming capabilities.",
+      title: "Notification Service",
+      description: "Scalable notification service supporting multiple channels (SMS, Email, Push) with delivery tracking.",
+      image: "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600",
+      technologies: ["Java", "RabbitMQ", "MongoDB", "Firebase"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: false
+    },
+    {
+      title: "Content Management System",
+      description: "Automated content moderation and management system for classified ads platform with ML-based filtering.",
       image: "https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "Node.js", "MySQL", "Video.js", "AWS S3"],
+      technologies: ["Java", "Spring Boot", "TensorFlow", "MySQL"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A selection of my recent work showcasing different technologies and problem-solving approaches
+            A selection of my work showcasing scalable systems, fintech solutions, and enterprise-grade applications
           </p>
         </div>
 

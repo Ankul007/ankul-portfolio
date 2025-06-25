@@ -4,42 +4,62 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechFlow Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      description: "Lead development of enterprise-scale web applications serving 100K+ users. Architected microservices infrastructure on AWS, resulting in 40% improved performance.",
-      technologies: ["React", "Node.js", "AWS", "TypeScript", "PostgreSQL"],
+      title: "Software Developer Engineer 3",
+      company: "BharatPe",
+      location: "Gurugaon, India",
+      period: "Jan 2024 - Present",
+      description: "Leading backend development initiatives for one of India's largest fintech platforms, focusing on payment systems and merchant solutions.",
+      technologies: ["Java", "Spring Boot", "Microservices", "MySQL", "Redis", "Kafka"],
       achievements: [
-        "Reduced application load time by 40% through optimization",
-        "Led team of 5 developers on major product redesign",
-        "Implemented CI/CD pipeline reducing deployment time by 60%"
+        "Integrated multiple lending partners including Capri, Credit Saison, and Muthoot, contributing to a 20% increase in BharatPe’s loan distribution revenue.",
+	      "Designed and developed an in-house Insurance product for merchant loans, expanding BharatPe’s financial offerings.",
+	      "Led end-to-end delivery of key features such as eKYC integration, vernacular language support for KFS, and others—overseeing the entire project lifecycle, from requirement gathering to production releases.",
+	      "Managed and mentored a team of 6–8 engineers, ensuring timely delivery, code quality, and alignment with business goals.",
+	      "Spearheaded the migration from RIPL to RDSPL, including CI/CD pipeline setup, database migration, and login/account transition, ensuring zero-downtime deployment.",
+	      "Mentored 10+ engineers, streamlining onboarding and enhancing backend system expertise across the team.",
+	      "Conducted 20+ technical interviews, playing a key role in building a strong, cohesive, and high-performing engineering team."
       ]
     },
     {
-      title: "Full Stack Developer",
-      company: "StartupHub Inc",
-      location: "Remote",
-      period: "2020 - 2022",
-      description: "Developed and maintained multiple client projects from concept to deployment. Collaborated with design team to create responsive, user-friendly interfaces.",
-      technologies: ["Vue.js", "Python", "MongoDB", "Docker"],
+      title: "Software Developer Engineer 2",
+      company: "Morgan Stanley",
+      location: "Bengaluru, India",
+      period: "Mar 2022 - Jan 2024",
+      description: "Developed and maintained critical financial systems and trading platforms, working with high-frequency data and real-time processing.",
+      technologies: ["Python", "Java 8", "Db2", "sybase", "ETL process"],
       achievements: [
-        "Built 15+ client projects with 98% customer satisfaction",
-        "Implemented real-time features using WebSocket technology",
-        "Mentored 3 junior developers"
+        "Developed and enhanced enterprise-grade software applications for the financial industry.",
+        "Collaborated with cross-functional teams to deliver high-quality solutions within aggressive timelines.",
+        "Designed, implemented, and tested software components, following industry best practices and coding standards.",
+        "Diagnosed and resolved complex technical issues to ensure application stability and performance.",
       ]
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Innovations",
-      location: "New York, NY",
-      period: "2019 - 2020",
-      description: "Focused on creating exceptional user experiences through modern frontend technologies. Worked closely with UX designers to implement pixel-perfect designs.",
-      technologies: ["React", "Redux", "Sass", "Webpack"],
+      title: "Software Developer Engineer 1 - Software Developer Engineer 2",
+      company: "Snapdeal India Pvt Ltd.",
+      location: "Bengaluru, India",
+      period: "Feb 2020 - Mar 2022",
+      description: "Worked on e-commerce platform development, focusing on catalog management, search optimization, and user experience improvements.",
+      technologies: ["Java", "Spring Boot", "MongoDB", "Elasticsearch", "Redis"],
       achievements: [
-        "Improved user engagement by 35% through UI/UX enhancements",
-        "Converted legacy jQuery codebase to React",
-        "Established frontend coding standards and best practices"
+        "Worked across multiple components of the supply chain ecosystem, driving functional enhancements and performance improvements.",
+        "Owned end-to-end development and maintenance of critical modules including RMS, QAAS, and the Tax Engine.",
+        "Built and maintained scalable software solutions to improve user experience and optimize system performance.",
+        "Actively participated in code reviews to ensure high code quality, maintainability, and adherence to engineering best practices."
+      ]
+    },
+    {
+      title: "Intern - Software Developer Engineer 1",
+      company: "Quikr India Pvt. Ltd",
+      location: "Bengaluru, India",
+      period: "Jul 2019 - Feb 2020",
+      description: "Started as an intern and quickly progressed to full-time role, working on classified ads platform and user engagement features.",
+      technologies: ["Node.js", "React", "JavaScript", "Java", "Spring", "MySQL", "MongoDB"],
+      achievements: [
+       "Contributed to the development of various components within the supply chain domain, enhancing system functionality and efficiency.",
+       "Took complete ownership of critical modules such as RMS, QAAS, and the Tax Engine, ensuring their stability and scalability.",
+       "Developed and maintained robust software solutions aimed at improving user experience and optimizing application performance.",
+       "Participated in peer code reviews to uphold code quality, readability, and compliance with best development practices."
       ]
     }
   ];
@@ -49,8 +69,8 @@ const Experience: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Experience</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            My professional journey building impactful solutions and leading development teams
+          <p className="text-l text-gray-600 max-w-3xl mx-auto">
+            My professional journey building scalable systems and leading development teams across fintech and e-commerce
           </p>
         </div>
 
@@ -69,7 +89,7 @@ const Experience: React.FC = () => {
               <div className={`ml-16 md:ml-0 md:w-5/12 ${index % 2 === 0 ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'}`}>
                 <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
-                    <h3 className="text-xl font-bold text-gray-900">{exp.title}</h3>
+                    <h3 className="text-l font-bold text-gray-900">{exp.title}</h3>
                     <div className="flex items-center text-sm text-gray-500 mt-1 sm:mt-0">
                       <Calendar size={14} className="mr-1" />
                       {exp.period}
