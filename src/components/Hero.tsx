@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
             <div className="w-32 h-32 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full p-1">
               <div className="w-full h-full bg-gray-200 rounded-full flex items-center justify-center">
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D5635AQF22JmhYrOKlw/profile-framedphoto-shrink_400_400/B56Zelw7wIHEAc-/0/1750832758124?e=1751475600&v=beta&t=vo8Rq_hDglSu7UgCD1OHj7OIhZQTUHXn2cJl1rIJpwY"
+                  src="https://drive.google.com/file/d/1y2kUH72DcF10z8a-hqezJW4apq2x56dX/view?usp=sharing"
                   alt="Ankul Singh"
                   className="w-full h-full rounded-full object-cover"
                 />
