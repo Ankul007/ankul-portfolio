@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
             <div className="w-32 h-32 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full p-1">
               <div className="w-full h-full bg-gray-200 rounded-full flex items-center justify-center">
                 <img 
-                  src="https://drive.google.com/uc?export=view&id=1y2kUH72DcF10z8a-hqezJW4apq2x56dX"
+                  src="https://res.cloudinary.com/dzyfmxk4c/image/upload/v1751886788/photo_detvaw.jpg"
                   alt="Ankul Singh"
                   className="w-full h-full rounded-full object-cover"
                 />
