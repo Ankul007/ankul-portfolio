@@ -35,22 +35,10 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               About
             </button>
             <button 
-              onClick={() => scrollToSection('skills')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
-            >
-              Skills
-            </button>
-            <button 
               onClick={() => scrollToSection('experience')}
               className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
             >
               Experience
-            </button>
-            <button 
-              onClick={() => scrollToSection('projects')}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
-            >
-              Projects
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
